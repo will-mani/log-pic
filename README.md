@@ -9,3 +9,9 @@ Why 257? The first 256 primes will be for the value, and the 257th will be for t
 The pixel value prime and the pixel position prime will form a prime pair. Thus, there are 1 million prime pairs for a 1000x1000 image.
 Each prime pair tells the value of a pixel at a certain position. The two primes in each pair are multiplied together to form a relatively prime composite.
 Now, we want to multiply all the relatively prime composites togther, but the product would be huge, and there would hardly be any compression gains.
+To work around this, log might help. Log might be a great help. It could also be a complete failure. 
+Anyway, instead of trying to calculate the huge product of relatively prime composites, first find the log of each composite.
+Then sum the composite logs together. This might a be a round about way of accurately calculating the log of the massive product.
+With the sum of logs, to an end comes the encoding.
+Next, the decoding.
+
