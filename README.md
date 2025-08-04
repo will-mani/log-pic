@@ -13,5 +13,9 @@ To work around this, log might help. Log might be a great help. It could also be
 Anyway, instead of trying to calculate the huge product of relatively prime composites, first find the log of each composite.
 Then sum the composite logs together. This might a be a round about way of accurately calculating the log of the massive product.
 With the sum of logs, to an end comes the encoding.
-Next, the decoding.
+Next, the decoding. 3 words - bruteforce, bruteforce, bruteforce. 
+Remember that huge product of relatively prime composites? We are going to (try to) calculate it!
+It's simple - raise the appropriate log base to the power of the log sum, the encoding of the image enconding.
+And now the fun part: brute force, brute foce, brute
+For each position prime, 
 
