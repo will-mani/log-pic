@@ -17,5 +17,8 @@ Next, the decoding. 3 words - bruteforce, bruteforce, bruteforce.
 Remember that huge product of relatively prime composites? We are going to (try to) calculate it!
 It's simple - raise the appropriate log base to the power of the log sum, the encoding of the image enconding.
 And now the fun part: brute force, brute foce, brute
-For each position prime, 
-
+For each position prime, multiply by each of its 256 value primes. This forms a candidate composite.
+The candidate composite that divides (properly, ideally, with a remainder of 0) is the relatively prive composite used in the encoding,
+And we have therefore successfully decoded the pixel value at that position. The flattened image can then be turned back into its original 2D form.
+And that's that. 
+Will this work? I'm pretty sure no. Can this work? It is worth the try.
